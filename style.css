@@ -179,3 +179,46 @@ footer {
   color: #333;
   margin-bottom: 15px;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.sidebar {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  width: 200px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 8px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #0a58ca;
+  font-weight: 500;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+  color: #084298;
+}
+
